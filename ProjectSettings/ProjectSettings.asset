@@ -12,13 +12,13 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: MRTK-Passthrough
+  companyName: Kela
+  productName: Holokela-MRTK-Passthrough
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 1
+  m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 15d72462e4ea30e4195a302d252a7d61,
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 17155703bc70d034e925ac2a56d427fe,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -125,7 +125,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0.0
+  bundleVersion: 0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -169,7 +169,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.MRTK.Passthrough
+    Android: fi.kela.vrdemos
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -269,7 +269,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 15d72462e4ea30e4195a302d252a7d61, type: 3}
+      m_Icon: {fileID: 2800000, guid: 17155703bc70d034e925ac2a56d427fe, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -306,65 +306,77 @@ PlayerSettings:
       m_Height: 81
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
-      m_Width: 192
-      m_Height: 192
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 144
-      m_Height: 144
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 96
-      m_Height: 96
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 72
-      m_Height: 72
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 48
-      m_Height: 48
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 36
-      m_Height: 36
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 192
       m_Height: 192
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 144
       m_Height: 144
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 96
       m_Height: 96
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 72
       m_Height: 72
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 48
       m_Height: 48
       m_Kind: 1
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 0}
       m_Width: 36
       m_Height: 36
       m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 0}
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -658,6 +670,7 @@ PlayerSettings:
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
   ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
